@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The_Right_Realty_Group</title>
+    <title>The Right Realty Group - Making Real Estate a Breeze</title>
     <!-- favicon -->
     <link
       rel="icon"
       type="image/x-icon"
       href="/assets/the_right_realty_group-af866f78.jpeg"
     />
-    <script type="module" crossorigin src="/assets/index-c721f6d7.js"></script>
-    <link rel="stylesheet" href="/assets/index-fe4b68ac.css">
+    <!--pushbar-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"
+    />
+    <script type="module" crossorigin src="/assets/index-f749e20f.js"></script>
+    <link rel="stylesheet" href="/assets/index-aa9a95f2.css">
   </head>
   <body>
     <header>
       <div class="container-fluid">
         <nav>
           <div class="row justify-content-between align-items-center">
-            <div class="col-3 logo_contianer w-auto">
+            <div class="col-3 logo_contianer">
               <div class="logo_">
                 <a href="#" class="d-flex align-items-center">
                   <img
@@ -27,28 +32,113 @@
                     alt="logo"
                     class="img-fluid"
                   />
-                  <h4>Reality Group</h4>
+                  <h4 class="text-uppercase">
+                    The Right <br />
+                    Realty Group
+                  </h4>
                 </a>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-end menu_container">
+            <div
+              class="col-3 d-flex justify-content-end align-items-center menu_container"
+            >
               <div class="nav_menu">
                 <ul class="d-flex">
-                  <li><a href="#">REALITY Listing</a></li>
-                  <li>
-                    <a class="d-flex align-items-center" href="#"
+                  <li class="d-flex flex-column">
+                    <a href="#" class="nav_item">REALTY Listing</a>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <a
+                      class="d-flex align-items-center nav_item"
+                      href="#"
+                      disabled
                       >Master Plan
                       <i class="bi bi-chevron-down"></i>
                     </a>
+
+                    <!--sub menu-->
+                    <div class="dropdown-content d-flex flex-column">
+                      <!--traingular shape-->
+                      <div class="tringular_"></div>
+                      <a href="#" class="d-flex align-items-center sellers_"
+                        ><img
+                          src="/assets/6072381271538116384-1ce79d32.svg"
+                          alt="buyer"
+                          class="img-fluid me-3"
+                        />
+                        <span>Sellers</span></a
+                      >
+                      <a href="#" class="d-flex align-items-center buyer_"
+                        ><img
+                          src="/assets/4195299941605806464-b3f28760.svg"
+                          alt="buyer"
+                          class="img-fluid me-3"
+                        />
+                        <span>Buyers</span></a
+                      >
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/9465713211639220111-20b1224f.svg"
+                          alt="listing"
+                          class="img-fluid me-3"
+                        />
+                        <span>Pre-Listing Survey for Sellers</span>
+                      </a>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/9465713211639220111-20b1224f.svg"
+                          alt="listing"
+                          class="img-fluid me-3"
+                        />
+                        <span>Pre-Appointment Survey for Buyers</span>
+                      </a>
+                    </div>
                   </li>
                   <li>
-                    <a class="d-flex align-items-center" href="#"
-                      >Why REALITY
+                    <a class="d-flex align-items-center nav_item" href="#"
+                      >Why REALTY
                       <i class="bi bi-chevron-down"></i>
                     </a>
+                    <!--sub menu-->
+                    <div class="dropdown-content d-flex flex-column">
+                      <!--traingular shape-->
+                      <div class="tringular_"></div>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/7609509141582985678-61050647.svg"
+                          alt="about"
+                          class="img-fluid me-3"
+                        />
+                        <span>About</span>
+                      </a>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/17702429991582884281-f3d4209e.svg"
+                          alt="about"
+                          class="img-fluid me-3"
+                        />
+                        <span>Team</span>
+                      </a>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/7609509141582985678-61050647.svg"
+                          alt="about"
+                          class="img-fluid me-3"
+                        />
+                        <span>Videos</span>
+                      </a>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="/assets/12192277641582988866-724bfc06.svg"
+                          alt="about"
+                          class="img-fluid me-3"
+                        />
+                        <span>Contact</span>
+                      </a>
+                    </div>
                   </li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Career</a></li>
+                  <li><a href="#" class="nav_item">Testimonials</a></li>
+                  <li><a href="#" class="nav_item">Career</a></li>
                 </ul>
               </div>
             </div>
@@ -73,12 +163,43 @@
               </div>
               <div class="ms-3 sl_information">
                 <a class="d-flex align-items-center" href="#"
-                  ><i class="bi bi-person-circle"></i> &nbsp;Login</a
+                  ><i class="bi bi-box-arrow-in-right"></i> &nbsp;Login</a
                 >
+              </div>
+              <div class="hamburger" data-pushbar-target="mypushbar1">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
               </div>
             </div>
           </div>
         </nav>
+      </div>
+      <!--mobile menu-->
+      <div
+        data-pushbar-id="mypushbar1"
+        data-pushbar-direction="right"
+        class="push-container"
+      >
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#roadMap">Service</a></li>
+          <li><a href="outplatforms.html" target="blank">Experience</a></li>
+        </ul>
+        <button data-pushbar-close>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            stroke-width="2.5"
+            stroke="#CACBD2"
+            fill="none"
+            class="duration-300 transform transition-all"
+            style="width: 24px; height: 24px"
+          >
+            <path d="M8.06 8.06l47.35 47.88M55.94 8.06L8.59 55.94"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -86,6 +207,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
     
   </body>
 </html>
