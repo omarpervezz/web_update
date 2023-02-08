@@ -16,8 +16,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"
     />
-    <script type="module" crossorigin src="/assets/index-f749e20f.js"></script>
-    <link rel="stylesheet" href="/assets/index-aa9a95f2.css">
+    <script type="module" crossorigin src="/assets/index-38004025.js"></script>
+    <link rel="stylesheet" href="/assets/index-3bc65a55.css">
   </head>
   <body>
     <header>
@@ -48,10 +48,7 @@
                     <a href="#" class="nav_item">REALTY Listing</a>
                   </li>
                   <li class="d-flex align-items-center">
-                    <a
-                      class="d-flex align-items-center nav_item"
-                      href="#"
-                      disabled
+                    <a class="d-flex align-items-center nav_item" href="#"
                       >Master Plan
                       <i class="bi bi-chevron-down"></i>
                     </a>
@@ -181,24 +178,25 @@
         data-pushbar-direction="right"
         class="push-container"
       >
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#roadMap">Service</a></li>
-          <li><a href="outplatforms.html" target="blank">Experience</a></li>
+        <ul class="nav_menu">
+          <li><a href="#" class="nav_item">REALTY Listing </a></li>
+          <li>
+            <a class="d-flex align-items-center nav_item" href="#"
+              >Master Plan
+              <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-items-center nav_item" href="#"
+              >Why REALTY
+              <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+          <li><a href="#" class="nav_item">Testimonials</a></li>
+          <li><a href="#" class="nav_item">Career</a></li>
         </ul>
-        <button data-pushbar-close>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 64 64"
-            stroke-width="2.5"
-            stroke="#CACBD2"
-            fill="none"
-            class="duration-300 transform transition-all"
-            style="width: 24px; height: 24px"
-          >
-            <path d="M8.06 8.06l47.35 47.88M55.94 8.06L8.59 55.94"></path>
-          </svg>
+        <button id="close" type="button" data-pushbar-close>
+          <i class="bi bi-x-lg"></i>
         </button>
       </div>
     </header>
