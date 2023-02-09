@@ -9,17 +9,13 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="/assets/the_right_realty_group-af866f78.jpeg"
+      href="/src/assets/the_right_realty_group.jpeg"
     />
-    <!--pushbar-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"
-    />
-    <script type="module" crossorigin src="/assets/index-38004025.js"></script>
-    <link rel="stylesheet" href="/assets/index-3bc65a55.css">
+    <script type="module" crossorigin src="/assets/index-e7e36c5b.js"></script>
+    <link rel="stylesheet" href="/assets/index-e1af47a1.css">
   </head>
   <body>
+    <!--start header-->
     <header>
       <div class="container-fluid">
         <nav>
@@ -43,7 +39,7 @@
               class="col-3 d-flex justify-content-end align-items-center menu_container"
             >
               <div class="nav_menu">
-                <ul class="d-flex">
+                <ul class="d-flex desk_menu">
                   <li class="d-flex flex-column">
                     <a href="#" class="nav_item">REALTY Listing</a>
                   </li>
@@ -178,7 +174,7 @@
         data-pushbar-direction="right"
         class="push-container"
       >
-        <ul class="nav_menu">
+        <ul class="mobile_menu">
           <li><a href="#" class="nav_item">REALTY Listing </a></li>
           <li>
             <a class="d-flex align-items-center nav_item" href="#"
@@ -195,17 +191,49 @@
           <li><a href="#" class="nav_item">Testimonials</a></li>
           <li><a href="#" class="nav_item">Career</a></li>
         </ul>
+
+        <div class="row justify-content-center">
+          <div
+            class="col-12 social_container social_container_mobile d-flex flex-column justify-content-end align-items-center"
+          >
+            <div class="social_media mobile_social_menu mt-1">
+              <ul class="d-flex">
+                <li>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-yelp"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="ms-3 sl_information sl_information_mobile">
+              <a class="d-flex align-items-center mt-4" href="#"
+                ><i class="bi bi-box-arrow-in-right"></i> &nbsp;Login</a
+              >
+            </div>
+            <div class="hamburger" data-pushbar-target="mypushbar1">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </div>
         <button id="close" type="button" data-pushbar-close>
           <i class="bi bi-x-lg"></i>
         </button>
       </div>
     </header>
-
+    <!--end header-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
     
   </body>
 </html>
