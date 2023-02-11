@@ -16,28 +16,32 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script async type="module" crossorigin src="/assets/index-5a16bdb6.js"></script>
-    <link rel="stylesheet" href="/assets/index-68fc1c7b.css">
+    <script async type="module" crossorigin src="/assets/index-369285ad.js"></script>
+    <link rel="stylesheet" href="/assets/index-87138996.css">
   </head>
+  
+  <link rel="stylesheet" href="./responsive.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./src/vendor_js/jquery-bg-slideshow-min.js"></script>
   <body>
     <!--start header-->
     <header>
       <div class="container-fluid">
         <nav>
-          <div class="row justify-content-between align-items-center">
-            <div class="col col-3 logo_contianer">
+          <div class="row_">
+            <div class="logo_contianer">
               <div class="logo_">
                 <a href="#" class="d-flex align-items-center">
                   <img
-                    src="/assets/KakaoTalk_Photo_2023-02-10-00-16-41-2035aa2e.png"
+                    src="/assets/the_right_realty_group-af866f78.jpeg"
                     alt="logo"
-                    class="img-fluid"
+                    class="img-fluid header_logo"
                   />
                 </a>
               </div>
             </div>
             <div
-              class="col col-3 d-flex justify-content-end align-items-center menu_container"
+              class="d-flex justify-content-end align-items-center menu_container"
             >
               <div class="nav_menu">
                 <ul class="d-flex desk_menu">
@@ -52,36 +56,12 @@
 
                     <!--sub menu-->
                     <div class="dropdown-content d-flex flex-column">
-                      <a href="#" class="d-flex align-items-center sellers_"
-                        ><img
-                          src="/assets/6072381271538116384-1ce79d32.svg"
-                          alt="buyer"
-                          class="img-fluid me-3"
-                        />
-                        <span>Sellers</span></a
-                      >
-                      <a href="#" class="d-flex align-items-center buyer_"
-                        ><img
-                          src="/assets/4195299941605806464-b3f28760.svg"
-                          alt="buyer"
-                          class="img-fluid me-3"
-                        />
-                        <span>Buyers</span></a
-                      >
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/9465713211639220111-20b1224f.svg"
-                          alt="listing"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#"> <span>Sellers</span></a>
+                      <a href="#"> <span>Buyers</span></a>
+                      <a href="#">
                         <span>Pre-Listing Survey for Sellers</span>
                       </a>
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/9465713211639220111-20b1224f.svg"
-                          alt="listing"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#">
                         <span>Pre-Appointment Survey for Buyers</span>
                       </a>
                     </div>
@@ -93,36 +73,16 @@
                     </a>
                     <!--sub menu-->
                     <div class="dropdown-content d-flex flex-column">
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/7609509141582985678-61050647.svg"
-                          alt="about"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#">
                         <span>About</span>
                       </a>
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/17702429991582884281-f3d4209e.svg"
-                          alt="about"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#">
                         <span>Team</span>
                       </a>
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/7609509141582985678-61050647.svg"
-                          alt="about"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#">
                         <span>Videos</span>
                       </a>
-                      <a href="#" class="d-flex align-items-center">
-                        <img
-                          src="/assets/12192277641582988866-724bfc06.svg"
-                          alt="about"
-                          class="img-fluid me-3"
-                        />
+                      <a href="#">
                         <span>Contact</span>
                       </a>
                     </div>
@@ -132,34 +92,12 @@
                 </ul>
               </div>
             </div>
-            <div
-              class="col col-3 social_container d-flex justify-content-end align-items-center"
-            >
-              <div class="social_media">
-                <ul class="d-flex">
-                  <li>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="bi bi-yelp"></i></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="ms-3 sl_information">
-                <a class="d-flex align-items-center" href="#"
-                  ><i class="bi bi-box-arrow-in-right"></i> &nbsp;Login</a
-                >
-              </div>
+            <div>
               <div class="hamburger" data-pushbar-target="mypushbar1">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
+                <span>Menu</span>
               </div>
             </div>
           </div>
@@ -169,60 +107,82 @@
       <div
         data-pushbar-id="mypushbar1"
         data-pushbar-direction="right"
-        class="push-container"
+        class="push-container push__bar"
       >
-        <ul class="mobile_menu">
-          <li><a href="#" class="nav_item">REALTY Listing </a></li>
-          <li>
-            <a class="d-flex align-items-center nav_item" href="#"
-              >Master Plan
-              <i class="bi bi-chevron-down"></i>
-            </a>
-          </li>
-          <li>
-            <a class="d-flex align-items-center nav_item" href="#"
-              >Why REALTY
-              <i class="bi bi-chevron-down"></i>
-            </a>
-          </li>
-          <li><a href="#" class="nav_item">Testimonials</a></li>
-          <li><a href="#" class="nav_item">Career</a></li>
-        </ul>
-
-        <div class="row justify-content-center">
-          <div
-            class="col-12 social_container social_container_mobile d-flex flex-column justify-content-end align-items-center"
-          >
-            <div class="social_media mobile_social_menu mt-1">
-              <ul class="d-flex">
-                <li>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-youtube"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-yelp"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="ms-3 sl_information sl_information_mobile">
-              <a class="d-flex align-items-center mt-4" href="#"
-                ><i class="bi bi-box-arrow-in-right"></i> &nbsp;Login</a
-              >
-            </div>
-            <div class="hamburger" data-pushbar-target="mypushbar1">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
+        <div class="d-flex align-items-center h-100 overflow-hidden">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col col-12">
+                <div class="menu_logo__">
+                  <img
+                    src="/assets/the_right_realty_group-af866f78.jpeg"
+                    alt="the_right_realty_group"
+                    class="img-fluid right_realty_logo"
+                  />
+                  <img
+                    src="/assets/cropped-eXp-Realty-Color-2-f397a147.png"
+                    alt="exp_logo"
+                    class="img-fluid exp_logo"
+                  />
+                </div>
+              </div>
+              <div class="col col-12 mobile_menu_container">
+                <div class="d-flex flex-column mobile_menu w-75">
+                  <div
+                    class="d-flex justify-content-between top_menu_information__"
+                  >
+                    <div>
+                      <h5>REALTY Listing</h5>
+                      <ul>
+                        <li><a href="#">Our Properties</a></li>
+                        <li><a href="#">Recent Sell</a></li>
+                        <li><a href="#">Recent added</a></li>
+                        <li>
+                          <a href="#">Pre-Appointment Survey for Buyers</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5>Master Plan</h5>
+                      <ul>
+                        <li><a href="#">Sellers</a></li>
+                        <li><a href="#">Buyers</a></li>
+                        <li><a href="#">Pre-Listing Survey for Sellers</a></li>
+                        <li>
+                          <a href="#">Pre-Appointment Survey for Buyers</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5>Why REALTY</h5>
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- <hr class="pb-4" /> -->
+                  <div
+                    class="d-flex justify-content-between bottom_menu_information__"
+                  >
+                    <div>
+                      <h5>Testimonials</h5>
+                    </div>
+                    <div>
+                      <h5>Career</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <button id="close" type="button" data-pushbar-close>
-          <i class="bi bi-x-lg"></i>
+          <span class="material-symbols-outlined"> close </span>
+          <span class="close_text">close</span>
         </button>
       </div>
     </header>
@@ -230,45 +190,48 @@
 
     <!--main start-->
     <main>
-      <!--banner start-->
-      <section
-        class="banner_ d-flex text-center justify-content-center align-items-center"
-        id="banner_"
-      >
-        <div class="container-fluid">
+      <style></style>
+      <section class="banner_">
+        <div class="content__">
           <div class="row">
-            <div class="col col-12">
-              <div class="header_container">
-                <h1 class="fit" id="heading_one">
-                  Find Your Perfect Property with
-                  <span class="right_realty_group_heading"
-                    ><br />The Right REALTY Group</span
-                  >
-                </h1>
-                <br />
-                <p class="text-justify mt-4 mt-md-2 mt-lg-5 paragraph__">
-                  Discover your dream home with ease. The Right REALTY Group is
-                  <br />
-                  here to guide you every step of the way. <br />
-                  Let us help you find your perfect property today!
-                </p>
+            <div class="col col-12 text-center">
+              <div class="px-app px-glitch">
+                <span class="px-top__">Find Your Perfect Property with</span>
+                <span class="px-top__ px-anim__">Right REALTY Group</span>
+                <icon-quix class="px-glitchsvg" icon="star-filled"></icon-quix>
+                <icon-quix
+                  class="px-glitchsvg px-glitchsvg-anim"
+                  icon="star-filled"
+                ></icon-quix>
               </div>
             </div>
-            <div
-              class="col col-12 d-flex align-items-center justify-content-center mt-4 mt-lg-0 mt-xl-5"
-            >
-              <a class="btn">
-                About Us
-                <img
-                  src="https://icon-library.com/images/arrow-icon-transparent-background/arrow-icon-transparent-background-10.jpg"
-                  alt="arrow"
-                />
-              </a>
+            <div class="col col-12 mt-3 d-flex justify-content-center">
+              <a href="#" class="btn btn_banner"
+                >About Us
+                <span class="material-symbols-outlined ms-3">
+                  arrow_right_alt
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg__"></div>
+      </section>
+      <!--logo-->
+      <section class="little_heading">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-12 d-flex justify-content-center">
+              <img
+                src="/assets/KakaoTalk_Photo_2023-02-10-00-16-41-2035aa2e.png"
+                alt="logo"
+                class="img-fluid logo_2__"
+              />
             </div>
           </div>
         </div>
       </section>
-      <!--banner end-->
+      <!--logo-->
       <!--recent sales start-->
       <section class="recent_listing">
         <div class="container-fluid">
@@ -283,7 +246,7 @@
           </div>
           <div class="container-fluid fluid_rec">
             <div class="row g-5 justify-content-center">
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_1">
                     <div class="product_pos d-flex gap-2 mt-2">
@@ -334,7 +297,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_2">
                     <div class="product_pos d-flex gap-2 mt-2">
@@ -385,7 +348,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_3">
                     <div class="product_pos d-flex gap-2 mt-2">
@@ -435,7 +398,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_4">
                     <div class="product_pos d-flex gap-2 mt-2">
@@ -486,7 +449,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_5">
                     <div class="product_pos d-flex gap-2 mt-2">
@@ -537,7 +500,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-6 col-md-5 col-lg-5 col-xl-3">
+              <div class="col col-9 col-md-5 col-lg-5 col-xl-3">
                 <div class="card">
                   <div class="card-header card_img_6">
                     <div class="product_pos d-flex gap-2 mt-2">
